@@ -76,7 +76,7 @@ def main():
     instance.run(
         asyncio_debug=True,
         activity=hikari.Activity(
-            name=f"/help or @Klee help | Just recently updated!",
+            name=f"Dev version.",
             type=hikari.ActivityType.WATCHING,
         ),
     )
