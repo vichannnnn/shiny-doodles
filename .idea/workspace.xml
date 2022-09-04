@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d54c55e1-d84a-4d29-87f3-bb6ee885f6bd" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="d54c55e1-d84a-4d29-87f3-bb6ee885f6bd" name="Changes" comment="add DOCKERFILE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662286000531</updated>
       <workItem from="1662286002278" duration="3107000" />
-      <workItem from="1662291342935" duration="4774000" />
+      <workItem from="1662291342935" duration="5102000" />
     </task>
     <task id="LOCAL-00001" summary="add ci pipeline">
       <created>1662290816450</created>
@@ -142,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662296465274</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add DOCKERFILE">
+      <created>1662296845459</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662296845459</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add ci pipeline" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="add DOCKERFILE" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DOCKERFILE" />
   </component>
 </project>
