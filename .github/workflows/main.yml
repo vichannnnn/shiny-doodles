@@ -11,7 +11,11 @@ jobs:
       - name: Push to server
         uses: appleboy/ssh-action@master
         with:
+          python-version: '3.10'
+          cache: 'pip'
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: cd ${{ secrets.DEV_PROJECT_PATH }} && git pull
+      - run: pip install -r requirements.txt
+      - run: python ci_cd_confirmation_script.py
