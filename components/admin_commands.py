@@ -6,6 +6,13 @@ plugin.add_checks(lightbulb.checks.owner_only)
 
 
 @plugin.command
+@lightbulb.command("kill", "Kills the bot.")
+@lightbulb.implements(lightbulb.PrefixCommand, lightbulb.SlashCommand)
+async def reload_extensions_command(ctx: lightbulb.Context):
+    await ctx.respond("Successfully killed the bot.")
+    await plugin.bot.close()
+
+@plugin.command
 @lightbulb.option("file_name", "file name", str)
 @lightbulb.command("reload", "Reloads an extension.")
 @lightbulb.implements(lightbulb.PrefixCommand, lightbulb.SlashCommand)
