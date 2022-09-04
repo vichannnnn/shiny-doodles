@@ -8,9 +8,17 @@ plugin.add_checks(lightbulb.checks.owner_only)
 @plugin.command
 @lightbulb.command("kill", "Kills the bot.")
 @lightbulb.implements(lightbulb.PrefixCommand, lightbulb.SlashCommand)
-async def reload_extensions_command(ctx: lightbulb.Context):
+async def kill_command(ctx: lightbulb.Context):
     await ctx.respond("Successfully killed the bot.")
     await plugin.bot.close()
+
+
+@plugin.command
+@lightbulb.command("ping", "Kills the bot.")
+@lightbulb.implements(lightbulb.PrefixCommand, lightbulb.SlashCommand)
+async def ping_command(ctx: lightbulb.Context):
+    await ctx.respond("Pong!")
+
 
 @plugin.command
 @lightbulb.option("file_name", "file name", str)
@@ -71,7 +79,6 @@ async def unload_extensions_command(ctx: lightbulb.Context):
     except Exception as e:
         embed = hikari.Embed(title="An error has occurred!", description=f"```python\n{repr(e)}\n```")
         await ctx.respond(embed=embed)
-
 
 
 def load(bot):

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d54c55e1-d84a-4d29-87f3-bb6ee885f6bd" name="Changes" comment="update DOCKERFILE and compose">
+    <list default="true" id="d54c55e1-d84a-4d29-87f3-bb6ee885f6bd" name="Changes" comment="update command">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci_cd_confirmation_script.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/components/admin_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/admin_commands.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662286000531</updated>
       <workItem from="1662286002278" duration="3107000" />
-      <workItem from="1662291342935" duration="6607000" />
+      <workItem from="1662291342935" duration="7293000" />
     </task>
     <task id="LOCAL-00001" summary="add ci pipeline">
       <created>1662290816450</created>
@@ -181,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662297374426</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update command">
+      <created>1662311582401</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662311582401</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +216,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="add DOCKERFILE" />
     <MESSAGE value="update DOCKERFILE and compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="update DOCKERFILE and compose" />
+    <MESSAGE value="update command" />
+    <option name="LAST_COMMIT_MESSAGE" value="update command" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/shiny_doodles$main.coverage" NAME="main Coverage Results" MODIFIED="1662311280626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
