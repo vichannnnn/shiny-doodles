@@ -16,6 +16,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: cd ${{ secrets.DEV_PROJECT_PATH }} && git pull
-      - run: pip install -r requirements.txt
+          script: cd ${{ secrets.DEV_PROJECT_PATH }} && git pull && bash ci.sh
       - run: python ci_cd_confirmation_script.py

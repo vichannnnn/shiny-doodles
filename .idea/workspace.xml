@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d54c55e1-d84a-4d29-87f3-bb6ee885f6bd" name="Changes" comment="update" />
+    <list default="true" id="d54c55e1-d84a-4d29-87f3-bb6ee885f6bd" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/ci.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662286000531</updated>
       <workItem from="1662286002278" duration="3107000" />
-      <workItem from="1662291342935" duration="2169000" />
+      <workItem from="1662291342935" duration="3592000" />
     </task>
     <task id="LOCAL-00001" summary="add ci pipeline">
       <created>1662290816450</created>
@@ -93,11 +97,42 @@
       <option name="project" value="LOCAL" />
       <updated>1662293958644</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1662294114041</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662294114041</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1662294315615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662294315615</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1662294373927</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662294373927</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1662294667309</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662294667309</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="main.yml" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
