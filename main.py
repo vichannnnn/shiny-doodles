@@ -75,7 +75,7 @@ def main():
     instance.run(
         asyncio_debug=True,
         activity=hikari.Activity(
-            name=f"Testing CI Pipeline...",
+            name=f"Testing CI Pipeline..",
             type=hikari.ActivityType.WATCHING,
         ),
     )
