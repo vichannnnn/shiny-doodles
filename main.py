@@ -29,7 +29,6 @@ class Yuna(lightbulb.BotApp, ABC):
         for file in listdir(abspath("components/")):
             if file != "__pycache__":
                 if file.endswith(".py"):
-                    f = file
                     file = "components." + file[:-3]
                     self.load_extensions(file)
                     print(f"Successfully loaded {file}")
@@ -76,7 +75,7 @@ def main():
     instance.run(
         asyncio_debug=True,
         activity=hikari.Activity(
-            name=f"Dev version.",
+            name=f"Testing CI Pipeline.",
             type=hikari.ActivityType.WATCHING,
         ),
     )
